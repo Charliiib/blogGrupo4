@@ -16,6 +16,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 background-color: #000000;
+z-index: 1000;
 }
 
 #logo {
@@ -32,4 +33,48 @@ position: relative;
 display: inline-block;
 margin: 0 15px;
 color: #ffffff;
+}
+
+/* banner */
+
+#banner {
+position: relative;
+min-height: 100vh;
+background: #111;
+background: url(../imagenes/banner.jfif);
+background-size: cover;
+background-position: right;
+display: flex;
+justify-content: right;
+align-items: center;
+padding: 110px;
+}
+#banner .txtbx{
+margin-right: 220px;
+}
+#banner h2 {
+font-size: 2.5em;
+color: #ebe1e1;
+line-height: 1.5em;
+}
+#banner h2 span {
+font-size: 1.2em;
+color: #efefef;
+}
+#banner h3 {
+color: #fff;
+font-size: 1.5em;
+}
+.btn {
+position: relative;
+background: #00c8be;
+display: inline-block;
+color: #000;
+margin-top: 20px;
+padding: 10px 30px;
+font-size: 18px;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 500;
+border-radius: 50px;
 }
