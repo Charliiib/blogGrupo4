@@ -1,0 +1,35 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+list-style: none;
+text-decoration: none;
+}
+
+/* header */
+header {
+position: fixed;
+width: 100%;
+padding: 40px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #000000;
+}
+
+#logo {
+width: 350px;
+}
+
+header ul {
+position: relative;
+display: flex;
+}
+
+header ul li a {
+position: relative;
+display: inline-block;
+margin: 0 15px;
+color: #ffffff;
+}
