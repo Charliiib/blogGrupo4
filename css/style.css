@@ -35,36 +35,10 @@ margin: 0 15px;
 color: #ffffff;
 }
 
-/* banner */
-
-#banner {
-position: relative;
-min-height: 100vh;
-background: #111;
-background: url(../imagenes/banner.jfif);
-background-size: cover;
-background-position: right;
-display: flex;
-justify-content: right;
-align-items: center;
+section {
 padding: 110px;
 }
-#banner .txtbx{
-margin-right: 220px;
-}
-#banner h2 {
-font-size: 2.5em;
-color: #ebe1e1;
-line-height: 1.5em;
-}
-#banner h2 span {
-font-size: 1.2em;
-color: #efefef;
-}
-#banner h3 {
-color: #fff;
-font-size: 1.5em;
-}
+
 .btn {
 position: relative;
 background: #00c8be;
@@ -78,3 +52,67 @@ letter-spacing: 2px;
 font-weight: 500;
 border-radius: 50px;
 }
+
+/* .banner */
+.banner {
+position: relative;
+min-height: 100vh;
+background: #111;
+background: url(../imagenes/banner.jfif);
+background-size: cover;
+background-position: right;
+display: flex;
+justify-content: right;
+align-items: center;
+}
+
+.banner h2 {
+font-size: 2.5em;
+color: #ebe1e1;
+line-height: 1.5em;
+}
+
+.banner h2 span {
+font-size: 1.2em;
+color: #efefef;
+}
+
+.banner h3 {
+color: #fff;
+font-size: 1.5em;
+}
+
+/* sobre nosotros */
+.nosotros {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+justify-items: center;
+}
+
+.heading {
+width: 100%;
+text-align: center;
+margin-bottom: 50px;
+margin-top: 50px;
+color: #111;
+}
+
+.heading h2 {
+font-size: 3em;
+color: #00c8be;
+}
+
+.w25 {
+min-width: 25%;
+text-align: center;
+}
+
+.proPic {
+position: relative;
+border-radius: 50px;
+width: 400px;
+height: 400px;
+margin-bottom: 15px;
+}
+
+
