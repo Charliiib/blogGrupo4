@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.contenedor {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.main-content {
+  overflow-y: auto; 
+  height: 100vh;
+}
+.sidebar {
+  padding: 20px;
+  background: #f0f0f0;
+  position: sticky;
+  top: 0;     
+  height: 100vh;  
+}
+
+
+
+
+/* contacto */
+.contactInfo {
+  margin-top: 60%;
+  min-width: 40%;
+}
+.contactInfo p {
+  color: #000;
+}
+.contactInfoBx {
+  position: relative;
+}
+.contactInfoBx .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+.contactInfoBx .box .icon {
+  color: black;
+  min-width: 40px;
+  padding-top: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 24px;
+}
+.contactInfoBx .box .text {
+  color: #000;
+  margin-left: 20px;
+  font-size: 16px;
+  flex-direction: column;
+  font-weight: 300;
+}
+.contactInfoBx .box .text h3 {
+  font-weight: 500;
+  color: #00c8be;
+  margin-bottom: 0;
+}
+.contactInfoBx .box .text p {
+  font-weight: 300;
+  color: #000;
+}
+.contactInfoBx .boxSocial {
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 15px;
+  padding-left: 60px;
+}
+.contactInfoBx .boxSocial .icon i {
+  color: black;
+}
+
+.contactInfoBx .boxSocial .icon i:hover {
+  color: #00c8be;
+}
