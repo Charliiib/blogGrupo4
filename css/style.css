@@ -108,13 +108,14 @@ text-align: center;
 }
 
 .proPic {
-position: relative;
-border-radius: 50px;
 width: 400px;
 height: 400px;
-margin-bottom: 15px;
+border-radius: 50%; 
+object-fit: cover;
+border: 3px solid #fff;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); 
+margin-bottom: 20px;
 }
-
 
 /*footer */
 footer{
