@@ -76,3 +76,33 @@ body {
 .contactInfoBx .boxSocial .icon i:hover {
   color: #00c8be;
 }
+
+.main-content article{
+  margin-left: 10%;
+}
+.main-content article img{
+  padding-right: 30px;
+}
+
+.main-content h2{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 32px;
+}
+.fotodeperfil{
+  width: 30%;
+  height: 30%;
+  border-radius:10%;
+  margin-top: 10%;
+}
+
+.main-content .contenido {
+  width: 90%;
+
+}
+
+.main-content p span {
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(0, 183, 255);
+}
