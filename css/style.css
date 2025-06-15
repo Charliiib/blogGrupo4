@@ -124,3 +124,27 @@ color: #fff;
 text-align: center;
 padding: 10px;
 }
+
+
+/*CSS DEL RELOJ*/
+
+.fechayreloj {
+  max-width:350px;
+  width:100%;
+  text-align:center;
+}
+#clock{
+  font-family: sans-serif;
+  font-size:50px;
+  color:#fff;
+}
+#clock span {
+  color:#888;
+  font-size:30px;
+}
+#date {
+  letter-spacing:3px;
+  font-size:17px;
+  font-family:arial,sans-serif;
+  color:#fff;
+}
