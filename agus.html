@@ -11,11 +11,15 @@
     crossorigin="anonymous"/>
     <title>BLOG GRUPO 4</title>
 </head>
-<body>
+<body onload="iniciaReloj()">
     <header>
     <a href="https://ifts16.com/" target="_blank" class="logo">
         <img src="imagenes/ifts-16.png" alt="logo IFTS 16" id="logo"/>
     </a>
+        <div class="fechayreloj">
+          <div id="date"></div>
+          <div id="clock"></div>
+        </div>
     <nav>
         <ul class="menu">
         <li><a href="index.html">Inicio</a></li>
@@ -106,5 +110,6 @@
 <footer class="copyright">
     <p>© Copyright 2025 - GRUPO 4</p>
 </footer>
+<script src="js/main.js"></script>
 </body>
 </html>
