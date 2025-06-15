@@ -31,5 +31,24 @@ function controlaTiempo(i) {
     }
     return i;
 }
+iniciaReloj();
+
+// Función para cambiar la imagen al hacer mouseover
+function cambiarImagen(elementId, nuevaImagen) {
+    const imagen = document.getElementById(elementId);
+    if (imagen) {
+        const imagenOriginal = imagen.src;
+        
+        imagen.addEventListener('mouseover', function() {
+            this.src = nuevaImagen;
+        });
+        imagen.addEventListener('mouseout', function() {
+            this.src = imagenOriginal;
+        });
+    }
+}
 
 
+cambiarImagen('carlos-img', 'imagenes/perfil3.jpeg');
+cambiarImagen('agus-img', 'imagenes/perfilagus2.jpg');
+cambiarImagen('valen-img', 'imagenes/perfilvalen2.jpg');
