@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuestionario - Blog Grupo 4</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="https://ifts16.com/" class="logo" target="_blank">
+        <img src="imagenes/ifts-16.png" alt="logo IFTS 16" id="logo" />
+      </a>
+      <div class="fechayreloj">
+        <div id="date"></div>
+        <div id="clock"></div>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">VOLVER AL BLOG</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="cuestionario" class="banner">
+      <div class="contenedor-cuestionario">
+        <h1>Cuestionario sobre el Blog</h1>
+        <p>
+          Responde las siguientes questions (cada respuesta correcta vale 2
+          puntos):
+        </p>
+
+        <form id="quiz-form">
+          <div class="question">
+            <p>1. ¿Cuál es el equipo favorito de F1 de Valentin?</p>
+            <div class="options">
+              <label class="option">
+                <input type="radio" name="q1" value="0" />
+                <span>Red Bull</span>
+              </label>
+              <label class="option">
+                <input type="radio" name="q1" value="0" />
+                <span>Ferrari</span>
+              </label>
+              <label class="option">
+                <input type="radio" name="q1" value="2" />
+                <span>McLaren</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>2. ¿De qué equipo de fútbol es Agustin?</p>
+            <div class="options">
+              <label class="option">
+                <input type="radio" name="q2" value="0" />
+                <span>Boca</span>
+              </label>
+              <label class="option">
+                <input type="radio" name="q2" value="0" />
+                <span>River</span>
+              </label>
+              <label class="option">
+                <input type="radio" name="q2" value="2" />
+                <span>Independiente</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>3. ¿Quién tiene una foto con un perro?</p>
+            <div class="options">
+              <label class="option">
+                <input type="radio" name="q3" value="2" />
+                <span>Charli</span>
+              </label>
+              <label class="option">
+                <input type="radio" name="q3" value="0" />
+                <span>Agus</span>
+              </label>
+              <label class="option">
+                <input type="radio" name="q3" value="0" />
+                <span>Valen</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>4. ¿Cuál es el mes de nacimiento de Valen?</p>
+            <div class="options">
+              <label class="option">
+                <input type="radio" name="q4" value="0" />
+                <span>Octubre</span>
+              </label>
+              <label class="option">
+                <input type="radio" name="q4" value="2" />
+                <span>Agosto</span>
+              </label>
+              <label class="option">
+                <input type="radio" name="q4" value="0" />
+                <span>Diciembre</span>
+              </label>
+            </div>
+          </div>
+          <div class="question">
+            <p>5. ¿De qué trabaja Agustin?</p>
+            <div class="options">
+              <label class="option">
+                <input type="radio" name="q5" value="2" />
+                <span>Empresa dedicada a la fotografía</span>
+              </label>
+              <label class="option">
+                <input type="radio" name="q5" value="0" />
+                <span>Empresa dedicada al monitoreo satelital</span>
+              </label>
+              <label class="option">
+                <input type="radio" name="q5" value="0" />
+                <span>Empresa dedicada al diseño gráfico</span>
+              </label>
+            </div>
+          </div>
+
+          <button type="button" id="submit-btn">Calcular puntaje</button>
+        </form>
+
+        <div id="result"></div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© Copyright 2025 - GRUPO 4</p>
+    </footer>
+    <script src="js/cuestionario.js"></script>
+  </body>
+</html>

@@ -1,151 +1,255 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: "Poppins", sans-serif;
-list-style: none;
-text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 /* header */
 header {
-position: fixed;
-width: 100%;
-padding: 40px 100px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: #000000;
-z-index: 1000;
+  position: fixed;
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  z-index: 1000;
 }
 
 #logo {
-width: 350px;
+  width: 350px;
 }
 
 header ul {
-position: relative;
-display: flex;
+  position: relative;
+  display: flex;
 }
 
 header ul li a {
-position: relative;
-display: inline-block;
-margin: 0 15px;
-color: #ffffff;
+  position: relative;
+  display: inline-block;
+  margin: 0 15px;
+  color: #ffffff;
 }
 
 section {
-padding: 110px;
+  padding: 110px;
 }
 
 .btn {
-position: relative;
-background: #00c8be;
-display: inline-block;
-color: #000;
-margin-top: 20px;
-padding: 10px 30px;
-font-size: 18px;
-text-transform: uppercase;
-letter-spacing: 2px;
-font-weight: 500;
-border-radius: 50px;
+  position: relative;
+  background: #00c8be;
+  display: inline-block;
+  color: #000;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 50px;
 }
 
 /* .banner */
 .banner {
-position: relative;
-min-height: 100vh;
-background: #111;
-background: url(../imagenes/banner.jfif);
-background-size: cover;
-background-position: right;
-display: flex;
-justify-content: right;
-align-items: center;
+  position: relative;
+  min-height: 100vh;
+  background: #111;
+  background: url(../imagenes/banner.jfif);
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }
 
 .banner h2 {
-font-size: 2.5em;
-color: #ebe1e1;
-line-height: 1.5em;
+  font-size: 2.5em;
+  color: #ebe1e1;
+  line-height: 1.5em;
 }
 
 .banner h2 span {
-font-size: 1.2em;
-color: #efefef;
+  font-size: 1.2em;
+  color: #efefef;
 }
 
 .banner h3 {
-color: #fff;
-font-size: 1.5em;
+  color: #fff;
+  font-size: 1.5em;
 }
 
 /* sobre nosotros */
 .nosotros {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
 
 .heading {
-width: 100%;
-text-align: center;
-margin-bottom: 50px;
-margin-top: 50px;
-color: #111;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #111;
 }
 
 .heading h2 {
-font-size: 3em;
-color: #00c8be;
+  font-size: 3em;
+  color: #00c8be;
 }
 
 .w25 {
-min-width: 25%;
-text-align: center;
+  min-width: 25%;
+  text-align: center;
 }
 
 .proPic {
-width: 400px;
-height: 400px;
-border-radius: 50%; 
-object-fit: cover;
-border: 3px solid #fff;
-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); 
-margin-bottom: 20px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
 }
-
 
 /*footer */
-footer{
-background: #000;
-color: #fff;
-text-align: center;
-padding: 10px;
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
-
 
 /*CSS DEL RELOJ*/
 
 .fechayreloj {
-  max-width:350px;
-  width:100%;
-  text-align:center;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
 }
-#clock{
+#clock {
   font-family: sans-serif;
-  font-size:50px;
-  color:#fff;
+  font-size: 50px;
+  color: #fff;
 }
 #clock span {
-  color:#888;
-  font-size:30px;
+  color: #888;
+  font-size: 30px;
 }
 #date {
-  letter-spacing:3px;
-  font-size:17px;
-  font-family:arial,sans-serif;
-  color:#fff;
+  letter-spacing: 3px;
+  font-size: 17px;
+  font-family: arial, sans-serif;
+  color: #fff;
+}
+
+/* Estilos del botón de cuestionario*/
+#botonCuestionario {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #2c3e50;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+#botonCuestionario:hover {
+  background-color: #1abc9c;
+  transform: scale(1.1);
+}
+
+#botonCuestionario i {
+  font-size: 24px;
+}
+
+/* CSS DEL CUESTIONARIO*/
+
+.contenedor-cuestionario {
+  max-width: 800px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.question {
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.option:hover {
+  background: #e9ecef;
+}
+
+.option input {
+  margin-right: 10px;
+}
+
+#result {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  display: none;
+  color: rgb(0, 0, 0);
+}
+
+.max-score {
+  background-color: #e8f8f5;
+}
+.max-score .result-icon {
+  color: #ffd700;
+}
+.max-score h2 {
+  color: #27ae60;
+}
+.good-score {
+  background-color: #fef9e7;
+}
+.good-score h2 {
+  color: #f39c12;
+}
+.good-score .result-icon {
+  color: #2ecc71;
+}
+
+.low-score {
+  background-color: #fdedec;
+}
+
+.low-score h2 {
+  color: #e74c3c;
+}
+
+.low-score .result-icon {
+  color: #e74c3c;
+}
+
+.result-icon {
+  font-size: 50px;
+  margin-bottom: 20px;
 }
