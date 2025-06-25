@@ -1,9 +1,9 @@
 "# blogGrupo4" 
 
 Integrantes: 
-Barros, Carlos
-Culla, Valentin
-Lobelle, Agustin
+Barros, Carlos.
+Culla, Valentin.
+Lobelle, Agustin.
 
 Materia: Desarrollo web 1C 2025
 
