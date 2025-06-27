@@ -254,118 +254,68 @@ footer {
   margin-bottom: 20px;
 }
 
-
-/* Pantallas medianas (tablets) */
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   header {
     padding: 30px 50px;
   }
-  
+
   #logo {
     width: 250px;
   }
-  
-  .banner {
-    background-position: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
+
   .nosotros {
-    grid-template-columns: 1fr;
-    gap: 50px;
-  }
-  
-  .w25 {
-    min-width: 80%;
-  }
-  
-  .proPic {
-    width: 300px;
-    height: 300px;
-  }
-  
-  section {
-    padding: 80px 50px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
   }
 }
 
-/* Pantallas pequeñas (móviles grandes) */
 @media (max-width: 768px) {
   header {
     padding: 20px 30px;
     flex-direction: column;
     align-items: center;
   }
-  
-  .fechayreloj {
-    margin: 15px 0;
+
+  .menu {
+    margin-top: 20px;
   }
-  
-  header ul {
-    margin-top: 15px;
+
+  .nosotros {
+    grid-template-columns: 1fr;
   }
-  
-  .banner h2 {
-    font-size: 2em;
+
+  .w25 {
+    min-width: 80%;
+    margin-bottom: 30px;
   }
-  
-  .banner h3 {
-    font-size: 1.2em;
-  }
-  
-  .btn {
-    padding: 8px 20px;
-    font-size: 16px;
-  }
-  
-  #logo {
-    width: 200px;
-  }
-  
+
   .proPic {
     width: 250px;
     height: 250px;
   }
+
+  section {
+    padding: 80px 30px;
+  }
+
+  .banner {
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+  }
 }
 
-/* Pantallas muy pequeñas (móviles) */
-@media (max-width: 576px) {
-  header {
-    padding: 15px 20px;
+@media (max-width: 480px) {
+  .fechayreloj {
+    margin-top: 15px;
   }
-  
-  .menu li {
-    margin: 0 5px;
+
+  #clock {
+    font-size: 30px;
   }
-  
-  .banner h2 {
-    font-size: 1.5em;
-  }
-  
-  .banner h2 span {
-    font-size: 1em;
-  }
-  
-  .heading h2 {
-    font-size: 2em;
-  }
-  
-  .proPic {
-    width: 200px;
-    height: 200px;
-  }
-  
-  section {
-    padding: 60px 20px;
-  }
-  
-  #botonCuestionario {
-    width: 50px;
-    height: 50px;
-  }
-  
-  #botonCuestionario i {
-    font-size: 20px;
+
+  .btn {
+    padding: 8px 20px;
+    font-size: 14px;
   }
 }

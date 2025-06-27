@@ -8,19 +8,18 @@ body {
 }
 
 .main-content {
-  overflow-y: auto; 
+  overflow-y: auto;
   height: 100vh;
+  margin-top: 70px;
+  margin-bottom: 20px;
 }
 .sidebar {
   padding: 20px;
   background: #f0f0f0;
   position: sticky;
-  top: 0;     
-  height: 100vh;  
+  top: 0;
+  height: 100vh;
 }
-
-
-
 
 /* contacto */
 .contactInfo {
@@ -77,32 +76,86 @@ body {
   color: #00c8be;
 }
 
-.main-content article{
+.main-content article {
   margin-left: 10%;
 }
-.main-content article img{
+.main-content article img {
   padding-right: 30px;
 }
 
-.main-content h2{
+.main-content h2 {
   margin-top: 20px;
   text-align: center;
   font-size: 32px;
 }
-.fotodeperfil{
+.fotodeperfil {
   width: 30%;
   height: 30%;
-  border-radius:10%;
+  border-radius: 10%;
   margin-top: 10%;
 }
 
 .main-content .contenido {
   width: 90%;
-
 }
 
 .main-content p span {
   font-weight: bold;
   font-size: 22px;
   color: rgb(0, 183, 255);
+}
+
+@media (max-width: 1200px) {
+  .contenedor {
+    grid-template-columns: 70% 30%;
+  }
+
+  .sidebar {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contenedor {
+    grid-template-columns: 1fr;
+  }
+
+  .main-content {
+    height: auto;
+    overflow-y: visible;
+  }
+
+  .sidebar {
+    position: static;
+    height: auto;
+  }
+
+  .contactInfo {
+    margin-top: 30px;
+  }
+  .fotodeperfil {
+    width: 45%;
+    height: auto;
+    margin-top: 5%;
+  }
+
+  .main-content article {
+    margin-left: 5%;
+  }
+
+  .contactInfoBx .box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contactInfoBx .box .text {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .boxSocial {
+    justify-content: center;
+    padding-left: 0 !important;
+    letter-spacing: 10px !important;
+  }
 }
